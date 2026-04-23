@@ -1,0 +1,55 @@
+# Digital Memory Capsule API
+
+## Project Description
+
+The Digital Memory Capsule API is a backend application developed using Spring Boot that allows users to securely store and manage digital memories such as messages, notes, or media content. The system enables users to create and retrieve memory capsules.
+
+## Tech Stack
+
+* Java
+* Spring Boot
+* Hibernate (JPA)
+* MySQL
+* Maven
+
+## Features
+
+* Create and store digital memory capsules
+* Retrieve all stored capsules
+* RESTful API design
+* Layered architecture (Controller, Service, Repository)
+* Input validation using Jakarta Validation
+
+## Tools
+
+* Postman for API testing
+* Maven for build and dependency management
+
+## How to Run
+
+1. Clone the repository
+2. Open the project in an IDE such as Eclipse or IntelliJ
+3. Configure the database in the `application.properties` file
+4. Run the Spring Boot application
+5. Test the APIs using Postman
+
+## API Endpoints
+
+### Capsule Management
+
+* POST /capsules
+  Create a new memory capsule
+
+* GET /capsules
+  Retrieve all memory capsules
+
+## Project Structure
+
+* Controller Layer: Handles HTTP requests and responses
+* Service Layer: Contains business logic
+* Repository Layer: Manages database interactions
+* Entity: Represents the database model
+
+## Author
+
+Basamma Y Santageri
