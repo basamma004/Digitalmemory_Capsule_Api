@@ -1,0 +1,9 @@
+package com.example.digitalmemorycapsuleAPI.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.example.digitalmemorycapsuleAPI.entity.Message;
+
+public interface MessageRepository extends JpaRepository<Message, Long>{
+
+}
